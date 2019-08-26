@@ -100,6 +100,12 @@ b.light-color{ color: #444; }
 .border-btn{ font-size: .9em; padding-bottom: 5px; background: none; color: inherit; border: 0;
 	position: relative; overflow: hidden; }
 
+ #watch-this-space{
+	 line-height: 1.5;
+    margin: 20px;
+    font-size: 16px;
+ }
+
 .border-btn:after{ content:''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
 	transition: all .3s; background: #E45F74; }
 
@@ -248,10 +254,11 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 100vh; position: relative; z-index: 1;
-	background-image: url(../../images/bespoke_photos/wine_tasting.jpg); background-size: cover; color: #fff; }
+	background-image: url(../../images/bespoke_photos/wine_tasting.jpg); background-size: cover; color: #fff; background-position: center;
+	box-shadow: 1px 10px 40px rgba(0,0,0,1);}
 
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
-	z-index: -1; background: rgba(0,0,0,.3); }
+	z-index: -1; background: rgba(0,0,0,.2); }
 
 .slider-content .date{ margin: 10px 0 0; }
 
@@ -277,7 +284,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .counter-area{ position: relative; z-index: 1;
-	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
+	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff;
+	box-shadow: 1px 10px 40px rgba(0,0,0,.4);}
 
 .counter-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -326,7 +334,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .ceremony-area{ position: relative; z-index: 1;
-	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff; }
+	background-image: url(../../images/counter-1-1600x600.jpg); background-size: cover; color: #fff;
+	box-shadow: 1px 10px 40px rgba(0,0,0,.4);}
 
 .ceremony-area:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -338,7 +347,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 9. CONTACT AREA
 --------------------------------- */
 
-.contact-area{ position: relative; overflow: hidden; box-shadow: 1px 10px 40px rgba(0,0,0,.4); }
+.contact-area{ position: relative; overflow: hidden;  }
 
 .contact-area .contact-wrapper{ width: 50%; }
 
@@ -346,6 +355,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 
 .contact-area .phone{ margin: 10px 0; font-size: 2em; color: #E45F74; }
+.contact-area .email2{ margin: 10px 0; font-size: 0.75em; color: #E45F74; }
 
 
 /* ---------------------------------
