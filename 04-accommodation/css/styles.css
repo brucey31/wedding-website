@@ -245,9 +245,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
 	z-index: -1; background: rgba(0,0,0,.3); }
 
-.main-slider .slider-content .title{ margin-bottom: 20px; }
-
-.main-slider .slider-content i{ margin-right: 10px; transform: translateY(3px); }
+.main-slider .pre-title{ color: #E45F74; }
 
 
 
