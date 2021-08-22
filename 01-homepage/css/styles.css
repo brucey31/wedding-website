@@ -254,7 +254,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 100vh; position: relative; z-index: 1;
-	background-image: url(../../images/bespoke_photos/Wedding_4.jpeg); background-size: cover; color: #fff;
+	background-image: url(../../images/bespoke_photos/wedding_6.jpeg); background-size: cover; color: #fff;
 	box-shadow: 1px 10px 40px rgba(0,0,0,1);}
 
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0;
